@@ -34,3 +34,29 @@ function validPhoneNumber(phoneNumber){
       }
   }
 }
+
+function fibonacci(n) {
+  var one = 1
+  var two = 0
+  var three = 0
+  while(n > 0) {
+    three = one;
+    one += two;
+    two = three;
+    n--;
+  }
+  return two
+}
+
+function fibonacci(n) {
+  var one = 1
+  var two = 0
+  var three = 0
+  while(n >= 0) {
+    three = one;
+    one += two;
+    two = three;
+    n--;
+  }
+  return two
+}
